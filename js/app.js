@@ -1,4 +1,4 @@
-// 1
+// 2
 /*
 function positiveNumFilter(numbers) {
   let positiveNumbers = [];
@@ -44,7 +44,7 @@ function positiveSum(numbers) {
   return sum;
 }
 
-// 2
+// 7
 // make function
 // make empty variable that stores the avarage
 // loop the results and add it to the total score
@@ -70,7 +70,7 @@ function getAverage(marks) {
   return Math.floor(averageScore);
 }
 
-// 3
+// 9
 const vegetables = ['Carrot', 'Cabbage', 'Onion'];
 
 function printVegetable(vegetable, index) {
