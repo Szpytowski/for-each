@@ -67,8 +67,11 @@ function getAverage(marks) {
   });
   let averageScore = totalScore / marks.length;
 
-  return Math.floor(averageScore);
+  return (averageScore);
 }
+
+let marksArray = [4, 5, 3, 4, 5];
+console.log(getAverage(marksArray));
 
 // 9
 const vegetables = ['Carrot', 'Cabbage', 'Onion'];
