@@ -26,7 +26,7 @@ function positiveSum(numbers){
 // now turn it into forEach
 
 function positiveNumFilter(numbers) {
-  let positiveNumbers = [];
+  const positiveNumbers = [];
   numbers.forEach(function (num) {
     if (num > 0) {
       positiveNumbers.push(num);
@@ -64,13 +64,11 @@ function getAverage(marks) {
   let totalScore = 0;
   marks.forEach(function (mark) {
     totalScore += mark;
-  });
-  let averageScore = totalScore / marks.length;
-
-  return (averageScore);
+  })
+  return totalScore / marks.length;
 }
 
-let marksArray = [4, 5, 3, 4, 5];
+const marksArray = [4, 5, 3, 4, 5];
 console.log(getAverage(marksArray));
 
 // 9
